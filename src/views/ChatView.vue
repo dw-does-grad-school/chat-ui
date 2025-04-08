@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted, nextTick } from 'vue'; 
+import { onMounted } from 'vue'; 
 import { useUserStore } from '../stores/user';
 import { useChatStore } from '../stores/chat';
 import { useRouter } from 'vue-router';
